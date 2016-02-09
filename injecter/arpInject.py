@@ -3,7 +3,7 @@
 import socket
 import struct
 import binascii
-
+# this is a comment
 rawSocket = socket.socket(socket.PF_PACKET, socket.SOCK_RAW, socket.htons(0x0800))
 
 rawSocket.bind(("lo", socket.htons(0x0800)))
